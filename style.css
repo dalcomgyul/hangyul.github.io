@@ -43,3 +43,12 @@ body {
   flex: 1;
   padding: 20px;
 }
+
+section {
+  display: none;
+}
+
+/* 활성화된 섹션 (예: 홈) 표시 */
+#home {
+  display: block;
+}
